@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('navbar_style', 'dark')
+
 @section('content')
     <div class="px-4 py-5 my-5 text-center bg-body-tertiary rounded-3">
         <img class="img-fluid" src="{{ asset('images/UWI-Wordmark.webp') }}" alt="UWI Wordmark" width="300" />
